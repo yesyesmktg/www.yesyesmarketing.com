@@ -1,10 +1,4 @@
-
-
-
-
-
-
-<!DOCTYPE html>
+!DOCTYPE html>
 <!--
 Template Name: Yoffa
 Author: <a href="https://www.os-templates.com/">OS Templates</a>
@@ -31,101 +25,95 @@ body {
   background-image: url('images/demo/backgrounds/01.png');
 }
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+
+
 body {
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar {
+.topnav {
   overflow: hidden;
   background-color: #333;
 }
 
-.navbar a {
+.topnav a {
   float: left;
-  font-size: 13px;
-  color: white;
+  color: #21D9BD;
   text-align: center;
-  padding: 10px 11px;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 13px;  
-  border: none;
-  outline: none;
-  color: rgb(247, 247, 247);
-  padding: 10px 11px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(23, 226, 192);
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #e4eeeb;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
+.topnav a:hover {
+  background-color: #21D9BD;
   color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
 }
 
-.dropdown-content a:hover {
-  background-color: rgb(18, 193, 199);
+.topnav a.active {
+  background-color: black;
+  color: white;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.container {
+  position: relative;
 }
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: 21D9BD;
+  color: #21D9BD;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container {
+  position: relative;
+}
+.text-left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: 21D9BD;
+  color: #21D9BD;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.text-center {
+  position: absolute;
+  bottom: 20px;
+  center: 20px;
+  background-color: #21D9BD;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
 </style>
+
 </head>
 <body>
 
-<div class="navbar">
-  <a href="index.html">HOME</a>
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="pages/index.html">PRODUCTS</a>
   <a href="pages/SERVICES WE OFFERED.HTML">SERVICES</a>
-  <div class="dropdown">
-    <button class="dropbtn">PRODUCTS OF
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="pages/Mitsubishi.html">Mitsubishi electric</a>
-      <a href="pages/vgurard.html">V Guard</a>
-      <a href="pages/videon.html">VIDEON</a>
-      <a href="pages/index.html">KSB</a>
-      <a href="pages/index.html">ESPA</a>
-      <a href="pages/index.html">BONTON </a>
-      <a href="pages/index.html">LG</a>
-      <a href="pages/index.html">PANASONIC</a>
-      <a href="pages/index.html">TRANE</a>
-    </div>
-  </div> 
-  <a href="pages/PROJECTS.html">PROJECTS</a>
-  <a href="pages/gallery.html">GALLERY</a>
+<a href="pages/PROJECTS.html">PROJECTS</a>
+<a href="pages/gallery.html">GALLERY</a>
   <a href="pages/Contact us.html">CONTACT US</a>
   <a href="pages/about us.html">ABOUT US</a>
-  <a href="pages/index.html">AWARDS</a>
+<a href="pages/index.html">AWARDS</a>
   <a href="pages/index.html">BLOG</a>
+
 </div>
+
 
 
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -150,11 +138,12 @@ body {
   <div class="text-block">
 
     <h4> <b>PRODUCTS<br><br></b></h4>
-    <p style="color:rgb(11, 172, 212)"><b> VRF</a><br>AIR CONDITIONERS <br> INVERTER <br> SOLAR WATER HEATER <br> AUTOMATIC WLC <br> PRESSURE PUMP <br></b></p>
+    <p style="color:white"><b> VRF</a><br>AIR CONDITIONERS <br> INVERTER <br> SOLAR WATER HEATER <br> AUTOMATIC WLC <br> PRESSURE PUMP <br></b></p>
 </div>
 <div class="text-left">
 
-    
+<h4> <b>BRANDS </b></h4>
+    <p style="color:white"><b><a href="pages/Vguard.html">V-GUARD</a><br><a href="pages/Mitsubishi.html">MITSUBISHI</a> <br><a href="pages/vgurard.html"> TRANE</a> <br><a href="pages/vgurard.html"> HYUNDAI</a> <br><a href="pages/vgurard.html"> ESPA</a> <br><a href="pages/videon.html"> VIDEON</a> <br><a href="pages/videon.html"> O-GENERAL</a> </b></p>
 </div>
 
 
